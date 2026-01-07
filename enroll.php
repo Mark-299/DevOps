@@ -280,7 +280,7 @@ if (isset($_SESSION['status'])){
         <label for="Gnumber" class="form-label">Guardian's Contact Number:</label>
         <div class="input-group">
           <div class="input-group-text">+63</div>
-          <input type="text" class="form-control" id="guardianPhoneNumber" name="guardianPhoneNumber" placeholder="9XXXXXXXXX" required>
+          <input type="text" class="form-control" id="guardianPhoneNumber" maxlength="10" name="guardianPhoneNumber" placeholder="9XXXXXXXXX" required>
         </div>
       </div>
     </div>
